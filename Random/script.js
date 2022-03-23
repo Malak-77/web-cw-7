@@ -17,4 +17,6 @@ function randomProperty(obj){
 
     console.log(keys[random]);
     console.log(obj['${keys[random]}']);
+}
+
 randomProperty(project);
